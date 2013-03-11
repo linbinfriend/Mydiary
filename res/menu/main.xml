@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" ><item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/newtimerecord"
+        android:icon="@drawable/collections_new_label"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/NewTimeRecord">
+    </item>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/action_search"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/search">
+    </item>
+    
+    <item
+        android:id="@+id/quit"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/device_access_location_off"
+        android:title="@string/Quit">
+    </item>
+    
+</menu>

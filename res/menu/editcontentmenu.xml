@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/editsave" android:showAsAction="ifRoom|withText" android:title="@string/savecontent" android:icon="@drawable/content_save"></item>
+    <item android:id="@+id/editundo" android:showAsAction="ifRoom|withText" android:title="@string/undocontent" android:icon="@drawable/content_undo"></item>
+    
+
+</menu>

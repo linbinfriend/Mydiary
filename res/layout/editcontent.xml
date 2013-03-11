@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请更新标题:" />
+
+        <EditText
+            android:id="@+id/edittitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#F0F8FF"
+            android:ems="10"
+            android:hint="请输入标题"
+            android:textColor="#FF0000" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/edittheday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入日期" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请更新主要内容:" />
+
+    <EditText
+        android:id="@+id/editcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23"
+        android:background="#F0F8FF"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="请输入正文"
+        android:inputType="textMultiLine"
+        android:textColor="#FF0000" />
+
+</LinearLayout>

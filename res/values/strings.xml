@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">时间管理</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Quit">退出</string>
+    <string name="NewTimeRecord">新时间记录</string>
+    <string name="search">搜索</string>
+    <string name="readdiary">阅读日记</string>
+    <string name="editcontent">编辑</string>
+    <string name="deletecontent">删除</string>
+    <string name="savecontent">保存</string>
+    <string name="undocontent">取消</string>
+    <string name="title_activity_newcontent">创建新记录</string>
+    <string name="editdiary">编辑日记</string>
+
+</resources>

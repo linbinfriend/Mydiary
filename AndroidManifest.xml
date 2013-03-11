@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rex.mydiary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rex.mydiary.MainActivity2"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rex.mydiary.Showcontent"
+            android:icon="@drawable/ic_launcher" >
+        </activity>
+        <activity
+            android:name="com.rex.mydiary.Newcontent"
+            android:label="@string/title_activity_newcontent"
+            android:parentActivityName="com.rex.mydiary.MainActivity2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rex.mydiary.MainActivity2" />
+        </activity>
+        <activity android:label="@string/editdiary" android:parentActivityName="@string/action_settings" android:name="Editcontent" android:icon="@drawable/ic_launcher"></activity>
+    </application>
+
+</manifest>

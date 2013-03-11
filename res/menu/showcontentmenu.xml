@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/editcontent"
+        android:icon="@drawable/content_edit"
+        android:title="@string/editcontent" android:showAsAction="ifRoom|withText">
+    </item>
+    <item
+        android:id="@+id/deletecontent"
+        android:icon="@drawable/content_discard"
+        android:title="@string/deletecontent" android:showAsAction="ifRoom|withText">
+    </item>
+
+</menu>
